@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KaotikusAllatklinika", "KaotikusAllatklinika\KaotikusAllatklinika.csproj", "{9837073F-293B-40B5-A8A8-1934F803733C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KaotikusAllatklinika.Tesztek", "KaotikusAllatklinika.Tesztek\KaotikusAllatklinika.Tesztek.csproj", "{B583F1D6-797C-42DA-BF1F-BFE2808E5D77}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9837073F-293B-40B5-A8A8-1934F803733C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9837073F-293B-40B5-A8A8-1934F803733C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9837073F-293B-40B5-A8A8-1934F803733C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9837073F-293B-40B5-A8A8-1934F803733C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B583F1D6-797C-42DA-BF1F-BFE2808E5D77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B583F1D6-797C-42DA-BF1F-BFE2808E5D77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B583F1D6-797C-42DA-BF1F-BFE2808E5D77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B583F1D6-797C-42DA-BF1F-BFE2808E5D77}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
