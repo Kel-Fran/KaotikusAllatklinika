@@ -45,7 +45,7 @@ namespace KaotikusAllatklinika.Tesztek
 
             kutya.HangotAd();
 
-            Assert.That(kutya.AkkumulatorToltottseg, Is.EqualTo(15));
+            Assert.That(kutya.AkkumlatorToltottseg, Is.EqualTo(15));
         }
 
         [Test]
@@ -53,11 +53,11 @@ namespace KaotikusAllatklinika.Tesztek
         {
             var kutya = new KiborgKutya("Rintintin Bot", 4, 50, 50);
 
-            kutya.KezelesKapot(20);
+            kutya.KezelestKapot(20);
 
             Assert.That(kutya.EgeszsegSzint, Is.EqualTo(70)); // 50 + 20 (base)
             Assert.That(kutya.AggodalomSzint, Is.EqualTo(10)); // 20 - 10 (base)
-            Assert.That(kutya.AkkumulatorToltottseg, Is.EqualTo(70)); // 50 + 20 (extra)
+            Assert.That(kutya.AkkumlatorToltottseg, Is.EqualTo(70)); // 50 + 20 (extra)
         }
 
         [Test]
@@ -65,7 +65,7 @@ namespace KaotikusAllatklinika.Tesztek
         {
             var macska = new HipnoMacska("Cirmos", 2, 40, 3); // HipnoEro = 3
 
-            macska.KezelesKapot(15);
+            macska.KezelestKapot(15);
 
             // Gyógyulás = 15 - 3 = 12 -> Új egészség = 40 + 12 = 52
             Assert.That(macska.EgeszsegSzint, Is.EqualTo(52));
@@ -78,7 +78,7 @@ namespace KaotikusAllatklinika.Tesztek
         {
             var papagaj = new PapagajVarazslo("Hahota", 1, 30, 20);
 
-            papagaj.VarázsolGyogyitast();
+            papagaj.VarázsolGyogyitas();
 
             Assert.That(papagaj.EgeszsegSzint, Is.EqualTo(50)); // 30 + 20
             Assert.That(papagaj.ManaSzint, Is.EqualTo(5)); // 20 - 15
